@@ -18,9 +18,41 @@ html {
 }
 
 .menu{
-  background-color: #555555;
-  color: #cccccc;
-  position: absolute;
+  align-content: center;
+  color: black;
+  top: 0;
+  width: 100%;
+  height:8%;
+  position: fixed;
+  text-align: center;
+}
+.menu-item{
+  font-size: 2rem;
+  font-family: 'Style Script', cursive;
+  padding-left: 0.5rem;
+  width:15%;
+  display: inline-block;
+}
+.menu-item:hover{
+  color: pink;
+  text-decoration-line: underline;
+}
+.header {
+  color: black;
+  top:30%;
+  width:100%;
+  font-size: 6rem;
+  font-family: 'Style Script', cursive;
+  text-align: center;
+  position: fixed;
+}
+.header-img{
+  max-width: 100%;
+  height: auto;
+}
+.main-images{
+  width: 150%;
+  height: 100%;
 }
 /*
  * Remove text-shadow in selection highlight:
